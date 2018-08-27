@@ -1,5 +1,5 @@
 katz_deli = []
-katz_deli_line
+katz_deli_line = list
 
 def line(katz_deli)
   if katz_deli.length == 0 
