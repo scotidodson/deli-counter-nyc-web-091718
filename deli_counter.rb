@@ -1,5 +1,5 @@
 katz_deli = []
-katz_deli_line = "list"
+
 
 def line(katz_deli)
   if katz_deli.length == 0 
@@ -7,7 +7,7 @@ def line(katz_deli)
   else 
     katz_deli.each_with_index do |name, index|
       number = index + 1 
-      katz_deli_line = "#{number}. #{name}"
+
     end 
     puts "The line is currently: #{katz_deli_line}"
   end 
