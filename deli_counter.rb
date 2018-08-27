@@ -22,4 +22,6 @@ def no_serving(katz_deli)
   if katz_deli.length == 0 
     puts "The line is empty."
   else
-    puts "#{katz_deli[0]}!"
+    puts "#{katz_deli[0]} is next."
+  end
+end
