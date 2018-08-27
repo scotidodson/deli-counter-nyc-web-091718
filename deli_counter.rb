@@ -9,7 +9,7 @@ def line(katz_deli)
       number = index + 1 
       katz_deli_line << "#{number}. #{name} "
     end 
-    return "The line is currently: #{katz_deli_line.join}"
+    return "The line is currently: #{katz_deli_line.join()}"
   end 
 end 
 
